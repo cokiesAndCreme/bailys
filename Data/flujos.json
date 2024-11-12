@@ -1,0 +1,24 @@
+{
+    "flujos": [
+        {
+            "palabrasclave":[
+                "ubicacion","uvicacion","ubicasion","ubicaciones","ubicasiones","ubicación","ubicaciónes","ubicasión","ubicasiónes"
+            ],
+            "texto":"ubi"
+         },
+         {
+            "palabrasclave":[
+                "imagen", "foto","imagenes","fotos"
+            ],
+        
+            "texto": "img"
+        }
+
+    ],
+    "mensajeDef":[
+        "Buenas "
+   ],
+   "mensajeSalida":[
+    "te 'ubicacion'"
+   ]
+}
