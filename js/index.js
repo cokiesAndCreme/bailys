@@ -15,18 +15,7 @@ const boom_1 = require("@hapi/boom");
 let images = {
     text: "hola pibe"
 };
-let botons = [
-    { buttonReply: {
-            displayText: "hola im a botton",
-            id: "1",
-            index: 1
-        }, type: "plain" },
-    { buttonReply: {
-            displayText: "hola im a el segunfo botton",
-            id: "2",
-            index: 1
-        }, type: "plain" }
-];
+
 let messageDefault = "chamito";
 function vaqueroVaqueroVaquero(jid) {
     var _a;

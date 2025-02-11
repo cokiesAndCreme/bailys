@@ -3,12 +3,12 @@ import {WASocket,
     getContentType
 } from "@whiskeysockets/baileys" ;
 import {Paco } from "./index"
-import {DatosIn} from "../Data/cosasSinS.json"
+
 import{flujos,mensajeDef,mensajeSalida}from "../Data/flujos.json"
 import buffer from 'fs';
 
 let mensaje = "sabias que ";
-const photo = buffer.readFileSync("C:/Users/venta/Desktop/js/v1_cb/img/gato2.jpg");
+
 
 function ahajaja(){
     
@@ -44,9 +44,7 @@ switch(flujo.texto){
     return;
     break;
     case "img":
-     coon.sendMessage(info, {
-            image: photo
-        });
+   
     console.log("mensaje de imagen")
     return;
     break;
